@@ -2,7 +2,7 @@ version: '3.8'
 services:
   web:
 #    build: .
-    image: atemndobs/resume:v0.4
+    image: atemndobs/resume:v0.5
     container_name: resume
     ports:
       - "5005:3000"
