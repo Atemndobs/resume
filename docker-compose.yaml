@@ -1,13 +1,13 @@
 version: '3.8'
 services:
   web:
-#    build: .
-    image: atemndobs/resume:v0.5
+    build: .
+   # image: atemndobs/resume:v1.2
     container_name: resume
     ports:
       - "5005:3000"
     volumes:
       - .:/usr/src/app
       - /usr/src/app/node_modules
-    environment:
-      - NODE_ENV=production
+#    environment:
+#      - NODE_ENV=production

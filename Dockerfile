@@ -1,5 +1,6 @@
 # Use the official Node.js 18 image as a parent image
-FROM node:18-alpine
+FROM atemndobs/resume:v1.0
+# node:18-alpine
 
 # Set the working directory in the container
 WORKDIR /usr/src/app
@@ -9,11 +10,13 @@ COPY package.json yarn.lock ./
 
 # Install dependencies
 RUN yarn install --frozen-lockfile
-RUN yarn add @supabase/supabase-js
+#RUN yarn add @supabase/supabase-js
+
 
 
 # Copy the rest of your application's code
 COPY . .
+
 
 # Expose the port the app runs on
 EXPOSE 3000

@@ -5,7 +5,6 @@ import {
   EnvelopeIcon,
   MapPinIcon,
 } from "@heroicons/react/24/outline";
-import classNames from "classnames";
 
 import { education, experience, SectionId, skills } from "../../../data/data";
 import Section from "../../Layout/Section";
@@ -26,7 +25,6 @@ const ContactValueMap: Record<ContactType, ContactValue> = {
   [ContactType.Instagram]: { Icon: InstagramIcon, srLabel: "Instagram" },
 };
 
-import Socials from "../../Socials";
 import {ContactType, ContactValue} from "../../../data/dataDef";
 import GithubIcon from "../../Icon/GithubIcon";
 import LinkedInIcon from "../../Icon/LinkedInIcon";
@@ -90,10 +88,3 @@ const Resume: FC = memo(() => {
 
 Resume.displayName = "Resume";
 export default Resume;
-
-
-// {
-//   type: ContactType.Github,
-//       text: "Atemndobs",
-//     href: "https://github.com/Atemndobs",
-// },
