@@ -110,6 +110,7 @@ export const heroData: Hero = {
  * About section
  */
 export const aboutData: About = {
+  title: "About me",
   profileImageSrc: profilepic,
   description: `
 
@@ -119,7 +120,7 @@ guiding cross-functional teams, mindful of budget constraints while continuously
   `,
   aboutItems: [
     { label: "Location", text: "Dusseldorf", Icon: MapIcon },
-    // {label: 'Age', text: '29', Icon: CalendarIcon},
+    {label: 'Age', text: '29', Icon: CalendarIcon},
     // {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
     {
       label: "Interests",

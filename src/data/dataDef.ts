@@ -38,6 +38,7 @@ interface HeroActionItem {
  * About section
  */
 export interface About {
+  title: string;
   profileImageSrc?: string;
   description: string;
   aboutItems: AboutItem[];
@@ -149,4 +150,14 @@ export interface Social {
   label: string;
   Icon: FC<IconProps>;
   href: string;
+}
+
+export interface Homepage {
+  hero: Hero;
+  about: About;
+  // Add other sections following the same pattern
+  // resume: ResumeSection;
+  // portfolio: PortfolioSection;
+  // testimonials: TestimonialSection;
+  // contact: ContactSection;
 }

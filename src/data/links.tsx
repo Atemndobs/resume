@@ -1,12 +1,3 @@
-import {
-  AcademicCapIcon,
-  ArrowDownTrayIcon,
-  BuildingOffice2Icon,
-  CalendarIcon,
-  FlagIcon,
-  MapIcon,
-  SparklesIcon,
-} from "@heroicons/react/24/outline";
 
 import GithubIcon from "../components/Icon/GithubIcon";
 import InstagramIcon from "../components/Icon/InstagramIcon";
@@ -19,13 +10,7 @@ import {
   About,
   ContactSection,
   ContactType,
-  Hero,
-  HomepageMeta,
-  PortfolioItem,
-  SkillGroup,
   Social,
-  TestimonialSection,
-  TimelineItem,
 } from "./dataDef";
 
 
